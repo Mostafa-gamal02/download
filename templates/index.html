@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Header Page By Mostafa Gamal -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Cover Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/examples/cover/">
+
+    
+
+    <!-- Css Page By Mostafa Gamal -->
+<link href="{{ url_for('static', filename = '/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom Style Page By Mostafa Gamal -->
+    <link href="{{ url_for('static', filename = 'cover.css') }}" rel="stylesheet">
+  </head>
+  <!-- Body Page By Mostafa Gamal -->
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Mostafa Gamal - Downloader</h3>
+      
+    </div>
+  </header>
+
+  <main class="px-3">
+    <h1>Facebook Download Video</h1>
+    <p class="lead">Download Videos From Facebook</p>
+    <p class="lead">
+    <form action="/download" method="POST">
+      <input type="text" class="form-control" placeholder="Enter Video Url Here :" name="url">
+      <button type="submit" class="btn btn-primary mt-3">Download Now</button>
+    </form>
+    </p>
+  </main>
+<!-- Footer Page By Mostafa Gamal -->
+  <footer class="mt-auto text-white-50">
+    <p>Web Site Copyrights 2021 <a href="https://wwww.facebook.com/profile.php?id=100058415269381" class="text-white">@MostafaGamal</a></p>
+  </footer>
+</div>
+
+
+    
+  </body>
+</html>
